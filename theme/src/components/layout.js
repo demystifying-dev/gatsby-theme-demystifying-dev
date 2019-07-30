@@ -8,11 +8,13 @@ import {
   Container,
   Styled
 } from "theme-ui"
+import { Global } from "@emotion/core"
 
 const Layout = ({ children }) => (
   <DefaultLayout 
     sx = {{ fontFamily: 'body', backgroundColor: 'background', color: 'text' }}
   >
+    <Global styles={{ body: { margin: 0 } }} />
     <Header>
       Header
     </Header>
