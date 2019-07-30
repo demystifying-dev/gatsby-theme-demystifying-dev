@@ -1,7 +1,8 @@
-import React from "react"
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 
 const Layout = ({ children }) => (
-  <div>
+  <div sx = {{ backgroundColor: 'background', color: 'text' }}>
     { children }
   </div>
 )
