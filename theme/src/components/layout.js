@@ -20,7 +20,7 @@ const Layout = ({ children }) => (
     </Header>
     <Main>
       <Container>
-        <h2>Test</h2>
+        <Styled.h2>Test</Styled.h2>
         { children }
       </Container>
     </Main>

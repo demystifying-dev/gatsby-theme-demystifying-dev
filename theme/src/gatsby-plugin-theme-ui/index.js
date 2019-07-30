@@ -1,6 +1,6 @@
 export default {
   colors: {
-    text: 'white',
+    text: 'black',
     background: 'tomato'
   },
   fonts: {
@@ -13,7 +13,12 @@ export default {
       color: 'background',
       padding: 10
     },
-    h1: {
+    Footer: {
+      backgroundColor: 'text',
+      color: 'background',
+      padding: 10
+    },
+    h2: {
       fontFamily: 'heading'
     }
   }
