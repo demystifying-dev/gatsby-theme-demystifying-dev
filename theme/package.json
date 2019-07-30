@@ -1,6 +1,16 @@
 {
-  "name": "theme",
+  "name": "gatsby-theme-demystifying-dev",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gatsby": "^2.13.44",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.13.44",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
