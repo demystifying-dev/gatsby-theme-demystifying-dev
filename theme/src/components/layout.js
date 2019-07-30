@@ -1,10 +1,31 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
+import { 
+  jsx,
+  Layout as DefaultLayout,
+  Header,
+  Footer,
+  Main,
+  Container,
+  Styled
+} from "theme-ui"
 
 const Layout = ({ children }) => (
-  <div sx = {{ backgroundColor: 'background', color: 'text' }}>
-    { children }
-  </div>
+  <DefaultLayout 
+    sx = {{ fontFamily: 'body', backgroundColor: 'background', color: 'text' }}
+  >
+    <Header>
+      Header
+    </Header>
+    <Main>
+      <Container>
+        <h2>Test</h2>
+        { children }
+      </Container>
+    </Main>
+    <Footer>
+      Footer
+    </Footer>
+  </DefaultLayout>
 )
 
 export default Layout
