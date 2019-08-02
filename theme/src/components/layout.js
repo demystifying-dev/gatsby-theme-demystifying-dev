@@ -11,9 +11,7 @@ import {
 import { Global } from "@emotion/core"
 
 const Layout = ({ children }) => (
-  <DefaultLayout 
-    sx = {{ fontFamily: 'body', backgroundColor: 'background', color: 'text' }}
-  >
+  <DefaultLayout>
     <Global styles={{ body: { margin: 0 } }} />
     <Header>
       Header
