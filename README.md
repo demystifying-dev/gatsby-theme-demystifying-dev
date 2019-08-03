@@ -3,6 +3,8 @@ Simple Gatsby theme example
 Only a simple example based on various references (see below), since it uses the npm package publication method for theme re-usability, which we wish to avoid for our Gatsby theme to be used by demystifying-dev.github.io, in favor of a simpler and non-npm publication dependent theme reusability method for writing themes that don't need starters. This may be:
 
 * (winner!) [Composable yarn workspaces by @ChristopherBiscardi](https://www.christopherbiscardi.com/post/composing-yarn-workspaces) where you simply nest git repos that couldn't care less about each other :)
+    * Now working on [Gatsby Composer for Themes](https://github.com/demystifying-dev/gatsby-composer-for-themes)
+    * Will advise here when ready for use, with docs.
 * Using git submodules
 * Using git subtrees
 
