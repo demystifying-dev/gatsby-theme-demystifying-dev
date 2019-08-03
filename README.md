@@ -1,6 +1,9 @@
 Simple Gatsby theme example
 
-Only a simple example based on various references (see below), since it uses the npm package publication method for theme re-usability, which we wish to avoid for our Gatsby theme to be used by demystifying-dev.github.io, in favor of a simpler and non-npm publication dependent theme reusability method using git submodules (which we will reference shortly as soon as a simple example is created).
+Only a simple example based on various references (see below), since it uses the npm package publication method for theme re-usability, which we wish to avoid for our Gatsby theme to be used by demystifying-dev.github.io, in favor of a simpler and non-npm publication dependent theme reusability method. This may be:
+
+* (winner!) [Composable yarn workspaces by @ChristopherBiscardi](https://www.christopherbiscardi.com/post/composing-yarn-workspaces) where you simply nest git repos that couldn't care less about each other :)
+* Using git submodules
 
 We leave the site, since the individual commits may be useful for people seeing how to get things going in order to develop their own Gatsby Themes in a yarn workspaces workflow.
 
